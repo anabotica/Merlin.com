@@ -1,0 +1,160 @@
+*{
+    font-family: "Poppins";
+    margin: 0PX;
+    padding: 0PX;
+}
+
+header{
+    background-image: url(fondottt.png);
+    height: 100vh;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+nav{
+    background: #f4f6f7;
+    height: 68px;
+}
+
+li {
+    margin: 20px;
+    list-style: none;
+    color: black;
+}
+
+ul{
+    display: flex;
+    margin-left: 69%;
+    margin-top: -67px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* BIENVENIDO A... */
+
+.titulo{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 21px;
+}
+
+span{
+    color: goldenrod;
+}
+
+h4{
+    color: goldenrod;
+}
+
+.inicio{
+    padding: 20px;
+    margin-top: 90px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+/* LAS CUATRO FOTOS */
+
+.new{
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: goldenrod;
+    font-weight: bold;
+}
+
+.fotostodo{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fotostodo img{
+    border-radius: 4%;
+}
+
+/*REDES SOCIALES*/
+
+.contacto{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20%;
+    font-weight: bolder;
+    color: goldenrod;
+    background-color: #ecf0f1;
+}
+
+.ima{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 44%;
+    gap: 20px;
+}
+
+/* PARTE DE NOSOTROS */
+
+.vision{
+    font-size: 50px;
+    margin-top: 130px;
+    text-align: center;
+    color: goldenrod;
+}
+
+.texto{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.imagen{
+    margin-left: 900px;
+    margin-top: -200px;   
+}
+
+/* PARTE DE TIENDA */
+
+h1{
+    margin-top: 40PX;
+    color: goldenrod;
+}
+
+.mujer{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+
+.hombre{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 9%;
+    margin-top: 70px;
+}
+
+hr{
+    width: 95px;
+    margin-left: 9%;
+    border-bottom: 2px solid goldenrod;
+}
+
+.ropas{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.cadauna img{
+    width: 205px;
+    height: 250px;
+    border-radius: 100%;
+}
