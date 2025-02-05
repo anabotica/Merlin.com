@@ -1,0 +1,303 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*index*/
+
+header{
+    background-image: url(fondottt.png);
+    height: 100vh;
+}
+nav{
+    background: #f4f6f7;
+    height: 68px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-top: -1px;
+}
+li{
+    margin: 20px;
+}
+.lineamenu{
+    text-decoration: underline;
+}
+nav a:hover{
+    text-decoration-line: underline;
+}
+
+/* BIENVENIDO A... */
+
+.titulo{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 21px;
+}
+span{
+    color: goldenrod;
+}
+.titulo h4{
+    color: goldenrod;
+    margin-top: -20px;
+}
+.inicio{
+    padding: 20px;
+    margin-top: 90px;
+    font-size: 19px;
+    background-color: black;
+    color: white;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+/* LAS CUATRO FOTOS */
+
+.new{
+    font-size: 30px;
+    margin-top: 40px;
+    text-align: center;
+    color: goldenrod;
+    font-weight: bold;
+}
+.fotostodo{
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+    justify-content: center;
+}
+.fotostodo img{
+    border-radius: 4%;
+}
+.subinicio{
+    display: flex;
+    justify-content: center;
+}
+.subinicio button{
+    border: none;
+    margin-left: 40px;
+    padding-top: 55px;
+    background: none;
+    font-weight: bold;
+}
+
+/* PARTE DE NOSOTROS */
+
+.vision{
+    font-size: 50px;
+    color: goldenrod;
+    padding-left: 50%;
+    position: absolute;
+    top: 145px;
+}
+.texto{
+    display: flex;
+}
+.texto img{
+    width: 350px;
+    height: 400px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.texto p{
+    font-size: 17px;
+    padding-left: 100px;
+    padding-top: 170px;
+    text-align: center;
+}
+.historia{
+    font-size: 50px;
+    color: goldenrod;
+    padding-left: 250px;
+    position: absolute;
+    top: 100%;
+}
+.textoo{
+    display: flex;
+}
+.textoo P{
+    font-size: 17px;
+    text-align: center;
+    padding-top: 190px;
+    padding-left: 80px;
+}
+.textoo img{
+    width: 350px;
+    height: 400px;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+
+/*TIENDA*/
+
+.titulotienda{
+    color: goldenrod;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 7%;
+}
+.generos{
+    display: flex;
+    justify-content: center;
+}
+.gene{
+    margin: 20px;
+}
+.gene button{
+    border: none;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.blue button{
+    background-color: rgb(118, 195, 240);
+}
+.rosa button{
+    background-color: rgb(235, 147, 176);
+}
+
+/* PARTE DE TIENDA MUJER Y HOMBRE */
+
+.title{
+    margin-top: 40PX;
+    color: goldenrod;
+}
+.muho{
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 14%;
+    margin-top: 70px;
+}
+.sex{
+    width: 13%;
+    margin-left: 10%;
+    border: 1px solid goldenrod;
+}
+.ropas{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.cadauna img{
+    width: 205px;
+    height: 250px;
+    border-radius: 100%;
+}
+.cadauna p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*TIENDA LAS ROPAS*/
+
+.nombreropa{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 12%;
+    margin-top: 70px; 
+}
+.lasropa{
+    margin-top: 50px;
+}
+.contenedorropa{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.contenertalla{
+    display: flex;
+    padding-bottom: 10px;
+    margin-top: -5px;
+}
+
+/*CONTACTO*/
+
+.contactar{
+    font-size: 20PX;
+    text-align: center;
+    padding-top: 40px;
+}
+.infocontact{
+    color: goldenrod;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.contactos{
+    padding-left: 15%;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.contenercontacto{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+/*PARTE DE COMPRA*/
+
+.contenerformulario{
+    margin: 0 370px;
+}
+.formulario{
+    border: 2px solid black;
+    margin-top: 50px;
+    height: 400px;
+}
+.formulario input{
+    margin-top: 20px;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border-style:groove;
+}
+.formulario label{
+    margin-left: 20px;
+}
+legend{
+    text-align: center;
+    margin: 20px;
+    color: goldenrod;
+    font-size: 20px;
+    font-weight: bold;
+}
+.formulario button{
+    margin-left: 45%;
+    margin-top: 30px;
+}
+
+/*REDES SOCIALES*/
+
+.contacto{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: bolder;
+    color: goldenrod;
+    background-color: #ecf0f1;
+}
+.fab:hover{
+    color: goldenrod;
+    transition: all 0.5s ease;
+}
+.redes{
+    padding-left: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.redes a{
+    margin: 20px;
+}
