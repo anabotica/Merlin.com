@@ -92,48 +92,78 @@ span{
 /* PARTE DE NOSOTROS */
 
 .vision{
-    font-size: 50px;
+    font-size: 30px;
     color: goldenrod;
-    padding-left: 50%;
+    padding-left: 70%;
     position: absolute;
-    top: 145px;
+    top: 30%;
 }
 .texto{
     display: flex;
 }
-.texto img{
-    width: 350px;
-    height: 400px;
-    padding-left: 50px;
-    padding-top: 40px;
-}
-.texto p{
-    font-size: 17px;
-    padding-left: 100px;
-    padding-top: 170px;
+.texto {
+    font-size: 14px;
+    padding-left: 55%;
     text-align: center;
+    position: absolute;
+    top: 35%;
 }
 .historia{
-    font-size: 50px;
+    font-size: 30px;
     color: goldenrod;
-    padding-left: 250px;
+    padding-left: 20%;
     position: absolute;
-    top: 100%;
+    top: 30%;
 }
+
 .textoo{
-    display: flex;
-}
-.textoo P{
-    font-size: 17px;
+    font-size: 14px;
     text-align: center;
-    padding-top: 190px;
-    padding-left: 80px;
+    padding-left: 50px;
+    position: absolute;
+    top: 35%;
 }
-.textoo img{
-    width: 350px;
-    height: 400px;
-    padding-left: 60px;
-    padding-top: 50px;
+.mision{
+    font-size: 30px;
+    color: goldenrod;
+    padding-left: 20%;
+    position: absolute;
+    top: 60%;
+}
+.texto1{
+    font-size: 14px;
+    text-align: center;
+    padding-left: 50px;
+    position: absolute;
+    top: 66%;
+}
+.metas{
+    font-size: 30px;
+    color: goldenrod;
+    padding-left: 74%;
+    position: absolute;
+    top: 60%;
+}
+.texto2{
+    font-size: 14px;
+    text-align: center;
+    padding-left: 60%;
+    position: absolute;
+    top: 66%;
+}
+.objetivos{
+    font-size: 30px;
+    color: goldenrod;
+    padding-left: 40%;
+    position: absolute;
+    top: 90%;
+}
+.texto3{
+    font-size: 14px;
+    text-align: center;
+    padding-left: 30%;
+    position: absolute;
+    top: 98%;
 }
 
 /*TIENDA*/
@@ -300,4 +330,321 @@ legend{
 }
 .redes a{
     margin: 20px;
+}
+
+/*REDES DE NOSOTROS*/
+
+.contacto2{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40%;
+    font-weight: bolder;
+    color: goldenrod;
+    background-color: #ecf0f1;
+    position: relative;
+    top: 280px;
+}
+.redes2{
+    padding-left: 30%;
+    position: relative;
+    top: 300px;
+    padding-bottom: 10px;
+}
+.redes2 a{
+    margin: 20px;
+}
+
+/*RESPONSIVE INICIO*/
+
+@media (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        height: auto;
+        background-size: cover;
+        background-position: center;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+        text-align: center;  /* Centra todo el contenido dentro de nav */
+    }
+
+    nav img {
+        margin: 0 auto;  /* Centra la imagen */
+        display: block;  /* Asegura que se comporta como un bloque */
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px 0;
+    }
+
+    .titulo {
+        margin-top: 60px;
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .titulo h4 {
+        font-size: 14px;
+    }
+
+    .inicio {
+        font-size: 15px;
+        margin: 20px 5%;
+        padding: 15px;
+    }
+
+    .fotostodo {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 5%;
+    }
+
+    .fotostodo img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .subinicio {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    .subinicio button {
+        margin-left: 0;
+        padding-top: 10px;
+    }
+
+    .contacto {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .redes {
+        padding: 10px 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redes a {
+        margin: 8px 0;
+    }
+}
+
+/*RESPONSIVE NOSOTROS*/
+
+   @media (max-width: 600px) {
+
+    /* Ajustar la imagen del logo */
+    nav img {
+        max-width: 60px;
+        height: auto;
+    }
+
+    /* Ajustar el menú de navegación */
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    /* Ajustar las secciones para que estén una debajo de la otra */
+    .historia, .vision, .mision, .metas, .objetivos {
+        padding-left: 0;
+        text-align: center;
+        font-size: 24px;
+        position: relative;
+        top: auto;
+    }
+
+    .textoo, .texto, .texto1, .texto2, .texto3 {
+        font-size: 14px;
+        padding-left: 10px;
+        text-align: center;
+        position: relative;
+        top: auto;
+    }
+
+    /* Ajustar el texto de las secciones */
+    .textoo p, .texto p, .texto1 p, .texto2 p, .texto3 p {
+        font-size: 14px;
+        text-align: justify;
+        margin: 10px;
+    }
+
+    
+
+    /* Ajustar el contacto y redes sociales */
+    .contacto2 {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .redes2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redes2 a {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+}
+
+    /* PARTE DE MUJER Y HOMBRE */
+    @media (max-width: 768px) {
+        .ropas {
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+    
+        .cadauna img {
+            width: 150px;
+            height: 180px;
+        }
+    
+        .muho {
+            margin-left: 5%;
+            text-align: center;
+        }
+    
+        .sex {
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    /*COMPRA DE ARTICULOS*/
+    /* Para dispositivos con pantallas de hasta 768px (tablets y móviles pequeños) */
+@media (max-width: 768px) {
+    .nombreropa {
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    .contenedorropa {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .lasropa {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .contenertalla {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenertalla label {
+        margin-bottom: 5px;
+    }
+}
+
+/* Para dispositivos con pantallas de hasta 480px (móviles pequeños) */
+@media (max-width: 480px) {
+    .nombreropa {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+    .contenedorropa {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .lasropa {
+        margin-top: 15px;
+    }
+
+    .contenertalla label {
+        font-size: 14px;
+    }
+}
+
+/*FORMULARIO DE COMPRA*/
+@media (max-width: 768px) {
+    .contenerformulario {
+        margin: 0 20px;
+    }
+
+    .formulario {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .formulario input {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .formulario label {
+        display: block;
+        margin-left: 0;
+    }
+
+    .formulario button {
+        margin-left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .formulario {
+        padding: 15px;
+    }
+
+    legend {
+        font-size: 18px;
+    }
+
+    .formulario input {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .formulario button {
+        font-size: 16px;
+    }
 }
